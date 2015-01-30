@@ -1,0 +1,23 @@
+{
+  "name": "shorturls",
+  "version": "0.0.1",
+  "description": "Transforms keywords into possible domain names and checks availabilty. Useful for hunting for short domains.",
+  "main": "index.js",
+  "bin": {
+    "shorturls": "bin/shorturls.js"
+  },
+  "keywords": [
+    "shorturl",
+    "url",
+    "search",
+    "domain",
+    "cli"
+  ],
+  "author": "zuren",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^0.5.1",
+    "domain-available": "0.0.1",
+    "yargs": "^1.3.3"
+  }
+}
